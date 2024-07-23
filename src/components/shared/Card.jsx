@@ -13,6 +13,7 @@ function Card({ children, reverse }) {
     >
       {children}
     </div>
+    // <div className={`card ${reverse && 'reverse'}`}>{children}</div>
   )
 }
 
